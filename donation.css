@@ -47,6 +47,10 @@ p{
     align-items: center;
   } 
 
+button > a {
+    color:gray;
+}
+
 .donate {
     border: none;
     background-color: transparent;
@@ -60,6 +64,7 @@ p{
     font-size: 20px;
     background: white;
     padding: 10px 20px 10px 20px;
+    margin-left : 10px;
     text-decoration: none;
     cursor: pointer;
   }
@@ -70,5 +75,32 @@ p{
     background-image: -ms-linear-gradient(top, #ffed88, #ffed88);
     background-image: -o-linear-gradient(top, #ffed88, #ffed88);
     background-image: linear-gradient(to bottom, #ffed88, #ffed88);
+    text-decoration: none;
+  }
+
+  .back {
+    border: none;
+    background-color: transparent;
+    font-family: 'Binggrae-Bold';
+    color:white;
+    font-size: 20px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: gray;
+    font-size: 20px;
+    background: white;
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .back:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #b8c9ff, #b8c9ff);
+    background-image: -moz-linear-gradient(top, #b8c9ff, #b8c9ff);
+    background-image: -ms-linear-gradient(top, #b8c9ff, #b8c9ff);
+    background-image: -o-linear-gradient(top, #b8c9ff, #b8c9ff);
+    background-image: linear-gradient(to bottom, #b8c9ff, #b8c9ff);
     text-decoration: none;
   }
